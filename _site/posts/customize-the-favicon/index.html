@@ -40,7 +40,7 @@
 <meta name="twitter:creator" content="@Cotes Chung" />
 <meta name="google-site-verification" content="김개발" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"/posts/customize-the-favicon/"},"url":"/posts/customize-the-favicon/","author":{"@type":"Person","name":"Cotes Chung"},"description":"In Chirpy, the image files of Favicons are placed in assets/img/favicons/. You may need to replace them with your own. So let’s see how to customize these Favicons.","dateModified":"2019-08-11T01:34:00+09:00","datePublished":"2019-08-11T01:34:00+09:00","headline":"Customize the Favicon","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/posts/customize-the-favicon/"},"author":{"@type":"Person","name":"Cotes Chung"},"url":"/posts/customize-the-favicon/","headline":"Customize the Favicon","dateModified":"2019-08-11T01:34:00+09:00","datePublished":"2019-08-11T01:34:00+09:00","description":"In Chirpy, the image files of Favicons are placed in assets/img/favicons/. You may need to replace them with your own. So let’s see how to customize these Favicons.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1094,32 +1094,6 @@ There are two ways to get the theme:
 
           
 
-          <!--
-  The Disqus lazy loading.
-  Powered by: <https://github.com/osvaldasvalutis/disqusLoader.js>
--->
-
-<div id="disqus" class="pt-2 pb-2">
-  <p class="text-center text-muted small pb-5">
-    Comments powered by <a href="https://disqus.com/">Disqus</a>.
-  </p>
-</div>
-
-<script src="/assets/js/lib/jquery.disqusloader.min.js"></script>
-<script>
-  const options = {
-    scriptUrl: '//kimdev.disqus.com/embed.js',
-
-    disqusConfig: function() {
-      this.page.title = 'Customize the Favicon';
-      this.page.url = '/posts/customize-the-favicon/';
-      this.page.identifier = '/posts/customize-the-favicon/';
-    }
-  };
-
-  $.disqusLoader('#disqus', options);
-</script>
-
           <div id="disqus_thread"></div>
           <script>
             /**
@@ -1140,6 +1114,34 @@ There are two ways to get the theme:
           </script>
           <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
               Disqus.</a></noscript>
+
+          <!--
+  The Disqus lazy loading.
+  Powered by: <https://github.com/osvaldasvalutis/disqusLoader.js>
+-->
+
+<div id="disqus" class="pt-2 pb-2">
+  <p class="text-center text-muted small pb-5">
+    Comments powered by <a href="https://disqus.com/">Disqus</a>.
+  </p>
+</div>
+
+<script src="/assets/js/lib/jquery.disqusloader.min.js"></script>
+<script>
+  const options = {
+    scriptUrl: '//kimdev-1.disqus.com/embed.js',
+
+    disqusConfig: function() {
+      this.page.title = 'Customize the Favicon';
+      this.page.url = '/posts/customize-the-favicon/';
+      this.page.identifier = '/posts/customize-the-favicon/';
+    }
+  };
+
+  $.disqusLoader('#disqus', options);
+</script>
+
+         
           
 
         </div> <!-- #post-extend-wrapper -->
