@@ -40,7 +40,7 @@
 <meta name="twitter:creator" content="@Cotes Chung" />
 <meta name="google-site-verification" content="김개발" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"/posts/write-a-new-post/"},"author":{"@type":"Person","name":"Cotes Chung"},"url":"/posts/write-a-new-post/","headline":"Writing a New Post","dateModified":"2019-08-08T15:10:00+09:00","datePublished":"2019-08-08T15:10:00+09:00","description":"Naming and Path","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/posts/write-a-new-post/"},"url":"/posts/write-a-new-post/","author":{"@type":"Person","name":"Cotes Chung"},"description":"Naming and Path","dateModified":"2019-08-08T15:10:00+09:00","datePublished":"2019-08-08T15:10:00+09:00","headline":"Writing a New Post","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -681,8 +681,8 @@
         <div class="post-meta mb-3">
           <i class="far fa-folder-open fa-fw mr-1"></i>
           
-            <a href='/categories/blogging/'>Blogging</a>,
-            <a href='/categories/tutorial/'>Tutorial</a>
+          <a href='/categories/blogging/'>Blogging</a>,
+          <a href='/categories/tutorial/'>Tutorial</a>
         </div>
         
 
@@ -691,10 +691,9 @@
         <div class="post-tags">
           <i class="fa fa-tags fa-fw mr-1"></i>
           
-          <a href="/tags/writing/"
-            class="post-tag no-text-decoration" >writing</a>
+          <a href="/tags/writing/" class="post-tag no-text-decoration">writing</a>
           
-          </div>
+        </div>
         
 
         <div class="post-tail-bottom
@@ -755,9 +754,7 @@
 
   
 
-  
-
-  <!--
+   <!--
   The Pannel on right side (Desktop views)
 -->
 
@@ -999,15 +996,14 @@
   
 
 </div> <!-- #panel-wrapper -->
+ </div>
+    <!-- .row -->
 
+    <div class="row">
+      <div class="col-12 col-lg-11 col-xl-8">
+        <div id="post-extend-wrapper" class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-</div> <!-- .row -->
-
-<div class="row">
-  <div class="col-12 col-lg-11 col-xl-8">
-    <div id="post-extend-wrapper" class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
-
-    <!--
+          <!--
  Recommend the other 3 posts according to the tags and categories of the current post,
  if the number is not enough, use the other latest posts to supplement.
 -->
@@ -1246,7 +1242,7 @@ With a square image (PNG, JPG o...
 
 
 
-    <!--
+          <!--
   Navigation buttons at the bottom of the post.
 -->
 
@@ -1268,14 +1264,61 @@ With a square image (PNG, JPG o...
 </div>
 
 
-    
+          
 
-    </div> <!-- #post-extend-wrapper -->
+          <!--
+  The Disqus lazy loading.
+  Powered by: <https://github.com/osvaldasvalutis/disqusLoader.js>
+-->
 
-  </div> <!-- .col-* -->
+<div id="disqus" class="pt-2 pb-2">
+  <p class="text-center text-muted small pb-5">
+    Comments powered by <a href="https://disqus.com/">Disqus</a>.
+  </p>
+</div>
 
-</div> <!-- .row -->
+<script src="/assets/js/lib/jquery.disqusloader.min.js"></script>
+<script>
+  const options = {
+    scriptUrl: '//kimdev.disqus.com/embed.js',
 
+    disqusConfig: function() {
+      this.page.title = 'Writing a New Post';
+      this.page.url = '/posts/write-a-new-post/';
+      this.page.identifier = '/posts/write-a-new-post/';
+    }
+  };
+
+  $.disqusLoader('#disqus', options);
+</script>
+
+          <div id="disqus_thread"></div>
+          <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function () { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://kimdev-1.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+              Disqus.</a></noscript>
+          
+
+        </div> <!-- #post-extend-wrapper -->
+
+      </div> <!-- .col-* -->
+
+    </div> <!-- .row -->
 
 
 
