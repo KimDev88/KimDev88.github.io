@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/</id>
   <title>김개발</title>
-  <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-03-02T00:00:57+09:00</updated>
+  <subtitle>김개발의 개발 관련 이야기 java spring boot react android jpa nodejs spa </subtitle>
+  <updated>2021-03-02T00:31:43+09:00</updated>
   <author>
     <name>yongsoo kim</name>
     <uri>/</uri>
