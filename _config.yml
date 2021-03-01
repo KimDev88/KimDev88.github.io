@@ -1,7 +1,8 @@
 # The Site Configuration
 
 # Import the theme
-theme: jekyll-theme-chirpy
+theme: Minima
+# theme: jekyll-theme-chirpy
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
@@ -20,9 +21,7 @@ title: 김개발                          # the main title
 tagline: 서른넷, 블로그에 뜻을 품다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  김개발의 개발 관련 이야기 java spring boot react android jpa nodejs spa 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
