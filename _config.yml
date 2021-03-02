@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: 김개발                          # the main title
+title: 김개발2                          # the main title
 
 tagline: 서른넷, 블로그에 뜻을 품다.   # it will display as the sub-title
 
